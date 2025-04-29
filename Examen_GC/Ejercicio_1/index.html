@@ -1,0 +1,117 @@
+<!-- Para recrear el inicio de un archivo html recuerden "!" + Tab -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Ejercicio1</title>
+
+
+    <!-- Bootstrap CSS -->
+    <!-- https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/ejercicio1/style.css">
+
+    <!-- -->
+
+</head>
+
+<body class="bg-light text-dark"> <!-- https://getbootstrap.com/docs/4.0/utilities/colors/ -->
+    <div class="container py-5"> <!--https://getbootstrap.com/docs/5.2/layout/containers/-->  <!-- https://getbootstrap.com/docs/5.2/examples/grid/#containers -->
+      <h1 class="mb-5 text-start">Miniajedres</h1> <!-- mb significa margin bottom (es para aumentar el espaciado inferior de un elemento)-->
+  
+      <!-- Formulario -->
+      <form id="contactForm" novalidate> <!-- https://getbootstrap.com/docs/5.0/forms/validation/#custom-styles -->
+        <!-- Nombre -->
+         <div class="container">
+         <div class="row p-3">
+         <div class="col-6">
+        <div class="mb-3">
+          <label for="name" class="form-label">Jugada Jugador 1:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+        
+          />
+          <!-- Mensaje de error -->
+          <div id="nameError" class="invalid-feedback"></div> <!-- https://getbootstrap.com/docs/4.0/components/forms/#custom-styles  -->
+        </div>
+  
+        <!-- Correo Electrónico -->
+        <div class="mb-3">
+          <label for="email" class="form-label">Jugada Jugador 2:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            
+          />
+          <div id="emailError" class="invalid-feedback"></div>
+        </div>
+        <!-- Botón de envío -->
+        <button type="submit" class="btn btn-outline-dark w-100">Jugar</button> <!-- Los posibles valores de w son multiplos de 25 -->
+      </form>
+    </div>
+    <div class="col-6">
+        <div class="container">
+        <table class="table align-middle">
+            <tbody>
+                <tr>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                </tr>
+                <tr>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                </tr>
+                <tr>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                </tr>
+                <tr>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                </tr>
+                <tr>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                    <td><img src="pieza1.png" class="rounded mx-auto d-block"></td>
+                </tr>
+          </table>
+        </div>
+    </div>
+</div>
+</div>
+  
+        <p class="mb-4 text-center"> Programacion Web</p>
+  
+        
+    </div>
+  
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/ejercicio1/script.js"></script>
+
+    <!--  -->
+
+  </body>
+
+</html>
