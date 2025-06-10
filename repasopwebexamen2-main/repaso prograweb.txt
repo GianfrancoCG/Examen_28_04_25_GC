@@ -1,0 +1,88 @@
+Descarga Node.js en -> https://nodejs.org/en
+
+ 
+
+Instalacion de express (https://expressjs.com/es/starter/installing.html)
+
+ 
+
+$ mkdir myapp
+
+$ cd myapp
+
+$ npm init
+
+$ npm install express
+
+# Para instalar Express temporalmente y no añadirlo a la lista de dependencias, omita la opción --save abajito:
+
+$ npm install express --no-save
+
+ 
+
+ 
+
+Instalacion de Vite (https://vite.dev/guide/)
+
+ 
+
+$ npm create vite@latest
+
+$ cd vite-project
+
+$ npm install
+
+$ npm run dev
+
+ 
+
+Instalacion de dependencias del backend:
+
+ 
+
+$ npm install express dotenv body-parser cors            # runtime
+
+$ npm install -D typescript ts-node-dev                  # build / reload
+
+$ npm install -D @types/node @types/express
+
+$ npm install -D @types/body-parser @types/cors          # .d.ts files
+
+
+
+
+=================================================================================================================================================================================================================
+
+
+
+Instalacion de dependencias del front:
+
+ 
+
+npm install react react-dom react-router-dom bootstrap axios
+
+npm install -D @types/react @types/react-dom @types/react-router-dom
+
+ 
+
+ 
+
+Github ya esta registrado en mi computadora con otra cuenta y no puedo enviar mi codigo porque no tengo permisos D: -> Buscar en windows "Credential Manager" -> "Windows Credentials" -> En "Generic Credentials" seleccionar el de github y eliminar
+
+ 
+
+Recomendados:
+
+ 
+
+https://www.youtube.com/watch?v=NmkY4JgS21A&ab_channel=FaztCode
+
+https://youtu.be/zp5Jh2FIpF0?si=dgmWUaynA3641iUh
+
+ 
+
+# Documentacion adicional (no relevante para el examen pero si para el uso en general):
+
+ 
+
+- https://vite.dev/guide/env-and-mode
